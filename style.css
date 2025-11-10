@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.container {
+    border: double;
+    margin: 5vh 10vw;
+    height: 60vh;
+}
+
+.sketch-row {
+    display: flex;
+}
+
+.sketch-square {
+    flex: auto;
+}
