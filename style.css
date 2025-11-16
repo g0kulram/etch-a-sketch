@@ -1,27 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-p{
-    text-align: center;
-    margin-left: 200px;
+.subtitle {
+  text-align: center;
+  margin-left: 40vw;
+  margin-bottom: 5vh;
 }
 
-.container {
-    border: double;
-    margin: 5vh 10vw;
-    height: 60vh;
+#container {
+  margin: auto;
+  border: 2px double black;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.sketch-row {
-    display: flex;
+.square {
+  flex: 0 0 auto;
+  width: 31.25px;
+  height: 31.25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 7px;
+  color: #aaa;
 }
 
-.sketch-square {
-    flex: auto;
+/* css rule for square hightlighting */
+.hightlight {
+  background-color: blue;
+}
+
+#control {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
 }
