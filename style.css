@@ -23,15 +23,12 @@ h1 {
 
 .square {
   flex: 0 0 auto;
-  width: 31.25px;
-  height: 31.25px;
+  /* width: 31.25px;
+  height: 31.25px; */
 
   display: flex;
   justify-content: center;
   align-items: center;
-
-  font-size: 7px;
-  color: #aaa;
 }
 
 /* css rule for square hightlighting */
